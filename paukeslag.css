@@ -1,0 +1,85 @@
+p
+{
+	margin: 5px;
+	font-family: serif;
+	font-size: 14pt;
+}
+
+.schreefloos
+{	
+	font-family: sans-serif;
+}
+
+.vet
+{
+	font-weight: bold;
+}
+
+.rechts
+{
+	text-align: right;
+}
+
+.rechts2
+{
+	float: right;
+}
+
+.breed
+{
+	text-align-last: justify;
+	text-justify: inter-word;
+	width: 100%;
+}
+
+.gigantisch
+{
+	font-size: 96pt;
+}
+
+.enorm
+{
+	font-size: 72pt;
+}
+
+.zeergroot
+{
+	font-size: 48pt;
+}
+
+.groot
+{
+	font-size: 32pt;
+}
+
+.ietsgroter
+{
+	font-size: 24pt;
+}
+
+.minuscuul
+{
+	font-size: 6pt;
+}
+
+.zeerklein
+{
+	font-size: 10pt;
+}
+
+
+.klein
+{
+	font-size: 12pt;
+}
+
+.smal
+{
+	font-stretch: condensed;
+}
+
+.schuin
+{
+	display: inline-block;
+	transform: rotate(-30deg);
+}
