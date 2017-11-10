@@ -14,6 +14,12 @@ div
 div.centre
 {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+}
+
+div.centre button
+{
+	align-self: center;
 }
