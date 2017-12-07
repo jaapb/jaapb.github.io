@@ -86,6 +86,7 @@ function button_clicked(e)
 function page_loaded()
 {
 	var ca = decodeURIComponent (document.cookie).split (';');
+	var btn = document.getElementById ("button");
 	for (var i = 0; i < ca.length; i++)
 	{
 		var eq = ca [i].indexOf ('=');
@@ -96,6 +97,7 @@ function page_loaded()
 			stage = parseInt (value);
 		}
 	}
-	update_button(document.getElementById ("button"));
+	update_button(btn);
+	
 }
 

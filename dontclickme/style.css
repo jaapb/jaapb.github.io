@@ -11,15 +11,7 @@ div
 	width: 100%;
 }
 
-div.centre
+button#button
 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-div.centre button
-{
-	align-self: center;
+	position: absolute;
 }
